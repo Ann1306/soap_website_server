@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #FFF5D2;
+}
+header > h1 {
+    text-align: center;
+}
+.SoapCarousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+#carouselExampleCaptions {
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+}
+.carousel-caption {
+    background-color: white;
+    color: black;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+main {
+    background-color: #F5F5F5;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main-content {
+    width: 70%;
+}
+.main-content  ul{
+    left: 0;
+    color:#000;
+    max-width:250px;
+    background: #FFF;
+    padding:10px 0px 20px 0px;
+    border-radius: 8px;
+    height: 100%;
+    padding: 10px;
+}
+.main-content  ul > li {
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 5px 0;
+    border-top: #F5F5F5 solid 1px;
+    border-bottom: #F5F5F5 solid 1px;
+    list-style-type: none;
+}
+.card {
+    height: 350px;
+    margin-bottom: 20px;
+    width: 15rem;
+}
+.card-img-top {
+    height: 200px;
+}
+footer {
+    background-color: #FFCD7C;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-link > img {
+    height: 50px;
+    margin: 20px;
+}
+.btn-primary {
+    background-color: #FFF0B7;
+    border: none;
+    color: #1D406D;
+}
+.btn-primary:hover {
+    background-color: #A68B28;
+}
+.link {
+	color: black; 
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; 
+}
+.link:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; 
+    background-color: #D2B48C; 
+    transition: width 0.5s; 
+}
+
+.link:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; 
+    background-color: #F5DEB3; 
+    transition: width 0.5s;  
+}
+   
